@@ -1,0 +1,67 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: white;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 58px;
+            background:blue;
+            border-bottom: 1px solid gray;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0 12px;
+            gap: 18px;
+        }
+
+        .icon-btn {
+            height: 44px;
+            min-width: 44px;
+            padding: 0 10px;
+            background: black;
+            border: 1px solid black;
+            border-radius: 8px;
+            color: white;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .github {
+            width: 44px;
+            height: 44px;
+            object-fit: contain;
+        }
+
+        .dashboard {
+            font-size: 18px;
+            white-space: nowrap;
+        }
+
+        .right {
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .profile {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h2{
+            font-size: 40px;
+            color: black;
+        }
