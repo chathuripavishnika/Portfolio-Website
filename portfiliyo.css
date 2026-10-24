@@ -65,3 +65,11 @@
             font-size: 40px;
             color: black;
         }
+
+        .profile{
+            border-radius: 70%;
+            object-fit: copver;
+            border: 3px solid black;
+        }
+
+        
